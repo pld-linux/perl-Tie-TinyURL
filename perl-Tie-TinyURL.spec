@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_with	tests	# do not perform "make test" (disabled since uses network)
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Tie
 %define		pnam	TinyURL
+%include	/usr/lib/rpm/macros.perl
 Summary:	Tie::TinyURL Perl module - Tied interface to TinyURLURL.com
 Name:		perl-Tie-TinyURL
 Version:	0.02
@@ -14,6 +14,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/N/NI/NICOLAW/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	7419627ca7a8fe75e1fe1ca7dc81174a
+URL:		http://search.cpan.org/dist/Tie-TinyURL/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
