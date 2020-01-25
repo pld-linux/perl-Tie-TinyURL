@@ -4,7 +4,6 @@
 
 %define		pdir	Tie
 %define		pnam	TinyURL
-%include	/usr/lib/rpm/macros.perl
 Summary:	Tie::TinyURL Perl module - Tied interface to TinyURLURL.com
 Name:		perl-Tie-TinyURL
 Version:	0.02
